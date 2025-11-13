@@ -17,7 +17,7 @@ ggplot(data, aes(x = year, y = weight)) +
     color = "brown",
     lwd = 1.2
   ) +
-  # Now add the icons on top, 10% larger than before
+  # Now add the icons on top, at an appropriate size
   geom_image(aes(image = image), size = 0.12) +
   labs(
     title = "Average Turkey Size in the US",
